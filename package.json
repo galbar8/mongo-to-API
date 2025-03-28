@@ -1,0 +1,20 @@
+{
+  "name": "mongodb-to-api",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "fastify": "^4.20.2",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}
